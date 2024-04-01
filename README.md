@@ -7,3 +7,4 @@
 - PostgreSQL
 - Fastify
 - ESLint
+- Redis
