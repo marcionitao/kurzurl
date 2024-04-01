@@ -1,0 +1,21 @@
+{
+    "extends": "@rocketseat/eslint-config/node",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {},
+    "overrides": [
+        {
+            "files": [
+                "**/*.ts"
+            ],
+            "rules": {
+                "linebreak-style": [
+                    "error",
+                    "unix"
+                ]
+            }
+        }
+    ]
+}
