@@ -1,1 +1,16 @@
-GET http://localhost:3333/teste
+POST http://localhost:3333/api/links
+Content-Type: application/json
+# add new link
+
+{
+  "code": "ana",
+  "url": "https://rocketseat.com.br"
+}
+
+###
+# list all
+GET http://localhost:3333/api/links
+
+###
+# list for code "rocket"
+GET http://localhost:3333/rocket

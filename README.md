@@ -4,7 +4,10 @@
 
 - NodeJS
 - TypeScript
+- Zod
 - PostgreSQL
 - Fastify
 - ESLint
 - Redis
+- Docker
+- Docker Compose
