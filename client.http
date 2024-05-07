@@ -12,5 +12,9 @@ Content-Type: application/json
 GET http://localhost:3333/api/links
 
 ###
-# list for code "rocket"
-GET http://localhost:3333/rocket
+# list for code "?" and redirect to "https://rocketseat.com.br"
+GET http://localhost:3333/marcio
+
+###
+# list metric of links visited
+GET http://localhost:3333/api/metrics
