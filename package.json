@@ -4,6 +4,8 @@
   "description": "Kurzurl is a url shortener",
   "main": "index.js",
   "scripts": {
+    "start": "node ./dist/server.mjs",
+    "build": "tsup src --format esm",
     "dev": "tsx watch ./src/server.ts",
     "setup": "tsx ./src/setup.ts"
   },
@@ -18,6 +20,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
+    "tsup": "^8.0.2",
     "tsx": "^4.7.1",
     "typescript": "^5.4.3"
   },
